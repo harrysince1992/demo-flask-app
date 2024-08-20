@@ -1,13 +1,24 @@
 body {
     text-align: center;
-    color: brown;
+    color: white;
+    padding: 0;
+    margin: 0;
 }
 
-h1 {
-    border: 2px #eee solid;
-    padding: 10px;
+.body-para {
+    height: 40vw;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+p {
+    flex-basis: 15vw;
 }
 
 footer {
-    opacity: 0.4;
+    opacity: 0.6;
+
 }
