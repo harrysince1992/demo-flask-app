@@ -8,7 +8,7 @@ color = os.environ.get('APP_COLOR')
 # color = 'blue'
 app = Flask(__name__)
 
-
+# app routes 
 @app.route('/')
 def hello_flask():
     return render_template('index.html', title='my application', bg_color=color)
