@@ -15,6 +15,7 @@ body {
 }
 
 p {
+    color: black;
     flex-basis: 15vw;
 }
 
